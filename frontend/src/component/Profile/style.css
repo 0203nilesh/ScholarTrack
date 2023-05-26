@@ -1,0 +1,221 @@
+.profile-container{
+    margin: 0 0.4em;
+    /* border: 2px solid black; */
+    padding: 0 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.profile-container>.heading{
+    font-size: 2.5em;
+    padding: 0 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+.profile-container .main-details{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+.profile-container .main-details .username{
+    font-size: 1.2em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.profile-container .main-details .username:hover{
+    color: rgb(86, 86, 198);
+}
+.profile-container .main-details .userType{
+    border: 2px solid black;
+    margin: 0 0.3em;
+    padding: 0.3em;
+    border-radius: 5%;
+    font-size: 1.4em;
+    cursor: pointer;
+    background-color: rgb(186, 244, 223);
+}
+.profile-container .main-details .userType:hover{
+    background-color: rgb(160, 205, 244);
+}
+.profile-container .secondary-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 5em;
+    padding: 0.5em;
+    /* border: 2px solid black; */
+}
+.profile-container .secondary-details>.child{
+    border: 2px solid black;
+    padding: 1.4em;
+}
+.profile-container .child{
+    /* border: 2px solid black; */
+    margin: 0.3em;
+    padding: 0.2em 0.9em;
+}
+.profile-container .child .heading{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profile-container .details {
+    /* padding: 0.4em; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.8em;
+}
+.profile-container .details>p{
+    font-size: 1.3em;
+    display: flex;
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-container .details>p>span{
+    display: block;
+    cursor: pointer;
+    /* border: 2px solid black; */
+    padding: 0.2em 0.5em;
+    border-radius: 5%;
+    float: right;
+    background-color: rgb(182, 182, 191);
+}
+.profile-container .details>p>input{
+    width: 50%;
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
+}
+.profile-container .academic-details {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.8em;
+}
+.profile-container .academic-details>p{
+    font-size: 1.3em;
+    display: flex;
+    width: 100%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-container .academic-details>p>span{
+    display: block;
+    /* border: 2px solid black; */
+    padding: 0.2em 0.5em;
+    border-radius: 5%;
+    float: right;
+    cursor: pointer;
+    background-color: rgb(182, 182, 191);
+}
+.profile-container .academic-details>p>input{
+    width: 40%;
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
+}
+.profile-container .academic-details>p>select{
+    padding: 0.2em 0.5em;
+    font-size: 0.9em;
+}
+
+.profile-container .password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 0.4em;
+    gap: 0.4em;
+}
+.profile-container .password .password-child{
+    /* border: 2px solid black; */
+    padding: 0.3em 0em;
+    /* font-size: 1.2em; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em 0.3em;
+    position: relative;
+}
+.profile-container .password .password-child> label{
+    font-size: 1.1em;
+    margin-right: 3px;
+}
+.profile-container .password .password-child>i {
+    position: absolute;
+    right: 8px;
+}
+.profile-container .password .password-child>input{
+    font-size: 0.9em;
+    padding: 0.3em;
+    margin-left: 8px;
+}
+.profile-container .buttons {
+    /* border: 2px solid black; */
+    padding: 0em 2em;
+    margin-top: 1em;
+}
+.profile-container .buttons>button{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    padding: 0.5em;
+    cursor: pointer;
+    border-radius: 8%;
+    margin: 0.4em auto;
+    background-color: rgb(250, 254, 201);
+}
+.profile-container .buttons>button:hover{
+    background-color: rgb(140, 236, 237);
+    color: black;
+}
+
+@media screen and ( max-width:600px ) {
+    .profile-container>.heading{
+        position: relative;
+        right: 25%;
+        font-size: 2em;
+    }
+    .profile-container .main-details{
+        top: 3%;
+    }
+    /* .profile-container .password .password-child{
+        width: 100%;
+        gap: 0.5em 0.2em;
+        padding: 0 0.2em;
+    } */
+    .profile-container .details>p{
+        font-size: 1.1em;
+    }
+    .profile-container .academic-details>p{
+        font-size: 1.2em;
+    }
+}
+@media screen and ( max-width:400px ) {
+    .profile-container>.heading{
+        position: relative;
+        font-size: 1.8em;
+        right: 20%;
+    }
+    .profile-container .password .password-child{
+        width: 100%;
+        gap: 0.6em 0.2em;
+    }
+    .profile-container .main-details{
+        top: 2.9%;
+        font-size: 0.8em;
+    }
+}

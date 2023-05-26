@@ -1,0 +1,32 @@
+.footer{
+    /* border: 2px solid black; */
+    padding: 0.4em;
+    bottom: 0.2em;
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0.2em;
+    box-sizing: border-box;
+    width: 99%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.footer p{
+    text-align: center;
+    font-size: 1.3em;
+}
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+    .footer p{
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer p{
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,38 @@
+.alert{
+    position: sticky;
+    width: 90%;
+    top: 1%;
+    left: 5%;
+    margin: 0.5em;
+    padding: 0.3em;
+    background-color: rgb(58, 59, 60);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    opacity: 1;
+}
+.alert p{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.alert .cancel{
+    position: absolute;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 700px) {
+    .alert p{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .alert p{
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,103 @@
+.login-form{
+    width: 40%;
+    margin: 2em auto;
+    border: 2px solid black;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
+.login-form .child{
+    /* margin: 0.2em; */
+    /* border: 2px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding: 0.2em;
+}
+.login-form .heading{
+    font-size: 2.8em;
+    margin: 0.3em auto;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.login-form .us-pass{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em 0.3em;
+}
+.login-form .us-pass >.us-pass-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em 0.3em;
+}
+.login-form .us-pass .us-pass-child input, label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 0.1em;
+    display: block;
+}
+.login-form .us-pass .password{
+    position: relative;
+}
+.login-form .password .eye{
+    position: absolute;
+    right: 9px;
+    top: 4px;
+}
+.login-form .submit{
+    display: flex;
+    margin:0.3em auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+}
+.login-form .submit button{
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding: 0.3em;
+    cursor: pointer;
+    background-color: rgb(215, 235, 233);
+}
+.login-form .submit button:hover{
+    background-color: rgb(221, 241, 236);
+}
+.login-form .link{
+    margin: auto;
+}
+.login-form .link .a{
+    text-decoration: none;
+    color: rgb(121, 130, 130);
+    font-size: 0.8em;
+}
+.login-form .link .a:hover{
+    color: rgb(74, 74, 95);
+}
+.login-class-footer{
+    position: absolute !important;
+    bottom: 0.3em;
+}
+
+@media screen and (max-width: 750px) {
+    .login-form .us-pass .us-pass-child> input, label{
+        font-size: 0.7em;
+    }
+    .login-form .heading{
+        font-size: 1.4em;
+    }
+    .login-form .submit button{
+        font-size: 0.9em;
+    }
+    .login-form .link a{
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 630px) {
+    .login-form{
+        width: 70%;
+    }
+}

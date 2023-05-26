@@ -1,0 +1,127 @@
+.filter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em 0.5em;
+}
+.filter .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter .heading>p{
+    padding: 0.5em 0.2em 0em 0.2em;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.filter-container{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0em auto 1em auto;
+    padding: 0em 0.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em 0.4em;
+}
+.filter-container>.child{
+    /* border: 2px solid black; */
+    padding: 0em 0.1em;
+    /* margin: 0.1em; */
+}
+.filter-container .name{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    gap: 0.3em 0.5em;
+}
+.filter-container .name> input{
+    width: 47%;
+    display: block;
+    font-size: 1.2em;
+    padding: 0.2em 0.1em;
+}
+.filter-container .other-filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.2em 0.5em;
+}
+.filter-container .other-filters .child{
+        /* font-size: 1.2em; */
+        padding: 0.2em;
+        /* width: 100%; */
+}
+.filter-container .other-filters .child>select{
+    font-size: 1.2em;
+    padding: 0.2em;
+    /* background-color: black; */
+}
+.filter-container .button{
+    padding: 0.2em;
+}
+.filter-container .button>button{
+    padding: 0.3em;
+    border-radius: 5%;
+    cursor: pointer;
+    font-size: 1.2em;
+    background-color: rgb(207, 251, 251);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.filter-container .button>button:hover{
+    background-color: rgb(157, 249, 249);
+}
+
+
+@media screen and (max-width: 930px) {
+    .filter-container .name>input{
+        font-size: 1em;
+    }
+    .filter-container .other-filters .child>select{
+        font-size: 1em;
+        padding: 0.1em;
+        /* background-color: black; */
+    }
+    .filter-container .button>button{
+        font-size: 1em;
+    }
+    .filter-container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .filter-container .name>input{
+        font-size: 0.8em;
+    }
+    .filter-container .other-filters{
+        font-size: 0.8em;
+    }
+    .filter-container .button>button{
+        font-size: 0.8em;
+    }
+    .filter-container{
+        width: 98%;
+    }
+    .filter-container .name{
+        width: 50%;
+    }
+    .filter-container .name{
+        justify-content: space-around;
+    }
+    .filter-container .name> input{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .filter-container .name{
+        width: 80%;
+    }
+    .filter-container .name>input{
+        width: 100%;
+    }
+}

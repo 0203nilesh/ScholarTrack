@@ -1,0 +1,209 @@
+.admissionYear::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+}
+.signup-main-container{
+    /* border: 2px solid black; */
+    margin: 0em 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 0.3em;
+}
+
+.signup-form{
+    border: 2px solid black;
+    margin: 0.1em 0.4em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.2em 0.3em;
+    padding: 0em 0.3em;
+}
+.signup-form .child{
+    /* margin: 0.2em; */
+    /* border: 2px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em 0.4em;
+    padding: 0.1em;
+}
+.signup-form .child input select{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    /* padding: 0.1em; */
+}
+.signup-form .heading{
+    font-size: 1.8em;
+    margin: 0.3em auto;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.signup-form .name {
+    margin: 0.1em 0.1em;
+    display: flex;
+    justify-content: center;
+    gap: 0.4em 0.4em;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.signup-form .name .name-chlid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em 0.4em;
+}
+
+.signup-form .user{
+    padding: 0.1em;
+    width: 280px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.2em 0.4em;
+}
+.signup-form .user .left-user{
+    display: flex;
+}
+.signup-form .user .right-user{
+    display: flex;
+}
+
+.signup-form .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3em 0.3em;
+}
+.signup-form .unique-code {
+    display: none;
+}
+.signup-form .contact .contact-child{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em 1.4em;
+}
+.signup-form .unique-code{
+    display: none;
+    flex-direction: co;
+}
+.signup-form .branch span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.3em;
+    padding: 0.1em;
+}
+.signup-form .credential{
+    /* border: 2px solid black; */
+    margin: 0em 0.1em;
+    padding: 0.2em 0em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.4em 0.2em;
+}
+.signup-form .credential .uname{
+    display: flex;
+    font-size: 0.9em;
+    justify-content: flex-start;
+    gap: 0.2em 0.4em;
+}
+.signup-form .credential .uname>  label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.signup-form .credential .uname> input{
+    font-size: 0.9em;
+}
+.signup-form .credential .password{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.2em 0.4em;
+    align-items: center;
+}
+.signup-form .credential .eye{
+    /* width: 5%; */
+    /* height: 18px; */
+    position: relative;
+    font-size: 0.8em;
+    right: 30px;
+    top: 1px;
+    cursor: pointer;
+}
+.signup-form .submit{
+    display: flex;
+    margin:0.3em auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+}
+.signup-form .submit button{
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    padding: 0.3em;
+    cursor: pointer;
+    background-color: rgb(215, 235, 233);
+    
+}
+.signup-form .submit button:hover{
+    background-color: rgb(221, 241, 236);
+}
+.signup-form .link{
+    margin: auto;
+}
+.signup-form .link .a{
+    text-decoration: none;
+    color: rgb(121, 130, 130);
+    font-size: 0.8em;
+}
+.signup-form .link a:hover{
+    color: rgb(74, 74, 95);
+}
+
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+    .signup-form>.child{
+        font-size: 1.1em;
+    }
+    .signup-form .user{
+        width: 250px;
+    }
+    .signup-form .heading{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 505px) {
+    .signup-form>.child{
+        font-size: 0.9em;
+    }
+    .signup-form .heading{
+        font-size: 1.3em;
+    }
+    .signup-form .user{
+        width: 210px;
+    }
+    .signup-form .name{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0.4em 0;
+    }
+    .signup-form .contact{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0.4em 0;
+    }
+}
