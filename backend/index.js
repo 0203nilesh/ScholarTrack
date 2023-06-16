@@ -6,7 +6,6 @@ import cors from 'cors';
 import authRoute from './routes/auth.js'; 
 import adminRoute from './routes/admin.js';
 import studentRoute from './routes/student.js';
-import { config } from 'dotenv';
 
 const app= express();
 dotenv.config();
