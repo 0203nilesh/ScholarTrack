@@ -4,15 +4,15 @@ Students are staged through branch and course opt by them.
 <br>
 <br>
 ## Login page
-![image](https://github.com/0203nilesh/ScholarTrack/assets/95562518/daff34e5-c699-4a38-8d0c-d5bbc6966766)
+![Screenshot (298)](https://github.com/0203nilesh/ScholarTrack/assets/95562518/6b77f3d1-21fb-4cd5-b5cc-ab5eb0fae23a)
 
 ## Admin View
-![image](https://github.com/0203nilesh/ScholarTrack/assets/95562518/807e1765-738e-440c-b483-0b9fcda6b27b)
+![Screenshot (299)](https://github.com/0203nilesh/ScholarTrack/assets/95562518/9480ef76-703d-47a6-8a73-5a83ae26f4c4)
 
 ## User Profile View
-![image](https://github.com/0203nilesh/ScholarTrack/assets/95562518/1011efa2-5977-4875-8389-80f012b99169)
+![Screenshot (300)](https://github.com/0203nilesh/ScholarTrack/assets/95562518/8faeabec-0456-4cf0-9b4c-3eb251216766)
 
 ## User Profile Edit
-![image](https://github.com/0203nilesh/ScholarTrack/assets/95562518/ee32d8b9-8afe-43d0-842d-9e37ca4483e2)
+![Screenshot (301)](https://github.com/0203nilesh/ScholarTrack/assets/95562518/01690da5-fa1e-42d3-92e0-d518a4e2aaec)
 
 ### ***Thanks***
